@@ -1,0 +1,2 @@
+- `bundle install`
+- `echo app.rb test.rb | tr ' ' '\n' | entr -r rspec test.rb`
